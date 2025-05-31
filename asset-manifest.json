@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aum-school-yoga/static/css/main.df65ba09.css",
-    "main.js": "/aum-school-yoga/static/js/main.bc4469b3.js",
+    "main.js": "/aum-school-yoga/static/js/main.8db8bc35.js",
     "static/media/Jathara parivartanasana.png": "/aum-school-yoga/static/media/Jathara parivartanasana.d28a75ef650892abcdfd.png",
     "static/media/Virabhadrasana2.png": "/aum-school-yoga/static/media/Virabhadrasana2.8c35bd796eed3312ce83.png",
     "static/media/Natarajasana.png": "/aum-school-yoga/static/media/Natarajasana.2cb1373b3a869bd9367d.png",
@@ -81,10 +81,10 @@
     "static/media/logo.jpg": "/aum-school-yoga/static/media/logo.471a898e0db450c7ae6b.jpg",
     "index.html": "/aum-school-yoga/index.html",
     "main.df65ba09.css.map": "/aum-school-yoga/static/css/main.df65ba09.css.map",
-    "main.bc4469b3.js.map": "/aum-school-yoga/static/js/main.bc4469b3.js.map"
+    "main.8db8bc35.js.map": "/aum-school-yoga/static/js/main.8db8bc35.js.map"
   },
   "entrypoints": [
     "static/css/main.df65ba09.css",
-    "static/js/main.bc4469b3.js"
+    "static/js/main.8db8bc35.js"
   ]
 }
