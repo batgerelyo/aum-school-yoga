@@ -1,0 +1,11 @@
+{
+  "python.analysis.extraPaths": [
+    "/Users/geleyo/.vscode/extensions/continue.continue-0.1.6-darwin-x64"
+  ],
+  "python.autoComplete.extraPaths": [
+    "/Users/geleyo/.vscode/extensions/continue.continue-0.1.6-darwin-x64"
+  ],
+  "cSpell.words": [
+    "Natar"
+  ]
+}
