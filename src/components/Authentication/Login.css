@@ -1,0 +1,25 @@
+/* Style for the login container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+/* Style for the Google login button */
+.google-login-btn {
+  background-color: #c9ba9d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.google-login-btn:hover {
+  background-color: #fff;
+  color: #c9ba9d;
+}

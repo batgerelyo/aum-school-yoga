@@ -1,0 +1,75 @@
+/* AsanaDetail.css */
+
+.detailed-asana {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: none;
+  background-color: white;
+  margin: 20px;
+}
+
+.centered-name {
+  font-size: 2rem;
+  color: #c9ba9d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-section img {
+  margin-top: 20px;
+  max-width: 100%;
+  max-height: 800px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.details-box {
+  box-sizing: border-box;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.details-box h1 {
+  color: #c9ba9d;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c9ba9d;
+}
+
+.details-box p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.2;
+}
+
+/* Style for larger screens */
+@media (min-width: 768px) {
+  .detailed-asana {
+    max-width: 800px;
+    margin: 20px auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .right-section {
+    margin-top: 0;
+    margin-left: 40px;
+  }
+}

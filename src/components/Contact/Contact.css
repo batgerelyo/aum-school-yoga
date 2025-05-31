@@ -1,0 +1,56 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-info {
+  /* Styles for the "Contact Us" section */
+  margin-top: 50px; /* Move "Contact Us" down */
+  font-size: 24px; /* Increase font size for "Contact Us" */
+  color: #333; /* Text color for "Contact Us" */
+}
+
+.contact-number {
+  /* Styles for the contact number (bottom left) */
+  align-self: flex-start; /* Align to the left */
+  margin-top: 20px; /* Add top margin to contact number */
+  font-size: 18px; /* Font size for contact number */
+  color: #333; /* Text color for contact number */
+}
+
+.contact-email {
+  /* Styles for the email (bottom left, below contact number) */
+  margin-top: 10px; /* Add top margin to email */
+  font-size: 16px; /* Font size for email */
+  color: #555; /* Text color for email */
+}
+
+.contact-image {
+  /* Styles for the image (right side) */
+  margin-top: 20px; /* Add top margin to image */
+  max-width: 100%; /* Ensure the image fits within its container */
+}
+
+.contact-map {
+  /* Styles for the map (bottom) */
+  margin-top: 20px; /* Add top margin to map */
+  width: 600px; /* Set a specific width for the map */
+  height: 450px; /* Set a specific height for the map */
+  margin-bottom: 40px;
+}
+
+/* Styling for the fabulous image */
+.fabulous-image {
+  width: 80%; /* Make sure the image takes the full width of its container */
+  border-radius: 10px; /* Apply rounded corners to the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
+  transition: transform 0.3s ease-in-out; /* Add a smooth hover effect */
+}
+
+/* Hover effect for the fabulous image */
+.fabulous-image:hover {
+  transform: scale(1.1); /* Zoom in the image slightly on hover */
+}

@@ -1,0 +1,33 @@
+/* Style for the logout container */
+.logout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style for the logout button */
+.logout-btn {
+  background-color: #c9ba9d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.logout-btn:hover {
+  background-color: #fff;
+  color:#c9ba9d;
+}
+
+/* Style for the message paragraph */
+.message {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+
+.center-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 75vh; 
+}
+
+.center-container {
+  text-align: center;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:  #c9ba9d; 
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.custom-file-upload:hover {
+  background-color: #fff; 
+  color: #c9ba9d;
+}

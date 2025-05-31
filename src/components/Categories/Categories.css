@@ -1,0 +1,62 @@
+.categories {
+  text-align: center;
+  color: #c9ba9d;
+  margin-top: 50px;
+}
+
+.categories h2:hover {
+  color: #999;
+}
+
+.category-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap between category cards as needed */
+  margin-top: 40px;
+}
+
+.category-card {
+  width: calc(20% - 20px); /* Set the width to 20% minus the gap */
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 370px; /* Set the desired height for the category cards */
+  width: 280px; /* Set the desired width for the category cards */
+  padding: 20px;
+  position: relative; /* Add relative positioning for card containers */
+}
+
+.category-link {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: #333;
+  height: 100%; /* Ensure the link takes up the full card height */
+}
+
+.category-image {
+  display: flex;
+  justify-content: flex-end; /* Align the image to the bottom */
+  align-items: flex-end; /* Align the image to the bottom */
+  flex-grow: 1; /* Expand to fill the available space in the card */
+}
+
+.category-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.category-name {
+  margin-top: 10px;
+  position: absolute;
+  bottom: 10px; /* Position the category name at the bottom */
+  left: 0;
+  right: 0;
+  color: #c9ba9d;
+}

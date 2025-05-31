@@ -1,0 +1,33 @@
+/* Footer.css */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  color: #c9ba9d;
+  border-top: 1px solid #ccc;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #c9ba9d; /* Set the default text color */
+  margin-right: 10px;
+  transition: color 0.3s; /* Add a transition for smooth color change on hover */
+}
+
+.social-icons a:hover {
+  color: #333; /* Set hover text color to #c9ba9d */
+}
+
+/* Footer.css */
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the spacing element */
+.icon-spacing {
+  margin-right: 10px; /* Adjust the spacing as needed */
+}

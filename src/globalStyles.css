@@ -1,0 +1,33 @@
+/* globalStyles.css */
+
+/* Common styles for text and background */
+body {
+  background-color: rgb(255, 255, 255);
+  color: #333;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Source Sans 3', sans-serif;;
+}
+
+/* Common link styles with hover effect */
+a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+/* Change link color on hover */
+a:hover {
+  color: #c9ba9d;
+}
+
+/* Center align content within components */
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh; /* Ensures components take up the full viewport height */
+}
+
+/* Additional common styles can be added here */

@@ -1,0 +1,91 @@
+.seated-asanas-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 49px;
+  margin-top: 49px;
+  color: #c9ba9d;
+}
+
+.seated-asanas-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 0 20px;
+  margin-bottom: 5%;
+}
+
+.seated-asana-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #c9ba9d;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  height: 100%;
+}
+
+.seated-asana-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.seated-asana-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.seated-asana-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.seated-asana-name {
+  font-size: 1.2rem;
+  color: #c9ba9d;
+}
+
+.seated-asana-details {
+  margin-top: 10px;
+  text-align: justify;
+  color: #555;
+  flex-grow: 1;
+}
+
+.seated-asana-benefits {
+  margin: 5px 0;
+  text-align: justify;
+  color: #555;
+  flex-grow: 1;
+  max-height: 3em;
+  overflow: hidden;
+}
+
+.seated-asana-show-more-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.seated-asana-show-more {
+  background-color: #c9ba9d;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.seated-asana-show-more:hover {
+  background-color: #9a9488; 
+}
+

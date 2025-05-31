@@ -1,0 +1,12 @@
+
+.submitted-poster {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+.submitted-poster img {
+  max-width: 100%; 
+  max-height: 80vh; 
+}

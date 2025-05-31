@@ -1,0 +1,81 @@
+/* Header.css */
+/* Style the header background and text color */
+header {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-around; /* Space between logo and navigation menu */
+  background-color: white; /* White background */
+  color: #333; /* Text color #333 */
+  height: 120px; /* Adjust the height as needed */
+  
+
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Center vertically within the flex container */
+}
+
+/* Style the navigation menu items */
+nav ul li {
+  margin: 10px;
+}
+
+/* Style the navigation links */
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Set text color to #333 */
+  transition: color 0.3s; /* Add a transition for smooth color change on hover */
+}
+
+/* Change the link color on hover */
+nav ul li a:hover {
+  color: #c9ba9d; /* Set hover color to #c9ba9d */
+}
+
+/* Style the logo */
+.logo img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 0px; /* Adjust the margin as needed to position the logo */
+  margin-top: 40px; /* Move the logo down */
+}
+
+
+/* Style for the Teacher's Page dropdown */
+.teacher-dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.teacher-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.teacher-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.teacher-dropdown .dropdown-menu li {
+  padding: 10px;
+  text-align: center;
+}
+
+.teacher-dropdown .dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.teacher-dropdown .dropdown-menu li a:hover {
+  background-color: #fff;
+}

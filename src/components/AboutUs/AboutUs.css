@@ -1,0 +1,76 @@
+.about-us {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Playfair Display', serif;
+font-family: 'Source Sans 3', sans-serif;
+}
+
+.teacher-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.teacher-info {
+  margin: 20px;
+  width: 400px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.teacher-photo img {
+  height: auto;
+  border-radius: 10px;
+  width: 150%; /* Adjust the width as needed */
+  transition: transform 0.5s ease-in-out; /* Slower transition for the photo */
+}
+
+.teacher-name {
+  color:#333;
+}
+
+
+.teacher-bio {
+  transform: translateY(40px); /* Initial position: hide bio below the photo */
+  opacity: 0; /* Initially make it transparent */
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Slower transitions for transform and opacity */
+  background-color: #c9ba9d; /* Background color for the bio */
+  padding: 10px; /* Add padding to the bio */
+  border-radius: 10px; /* Add border-radius to the bio */
+  text-align: center; /* Center align text horizontally */
+  margin-top: 10px; /* Add space between name and bio */
+  font-size: 18px;
+}
+
+.teacher-info:hover .teacher-photo img {
+  transform: translateY(-10px); /* Move the image up slightly on hover */
+}
+
+.teacher-info:hover .teacher-bio {
+  transform: translateY(0); /* Slide up the bio on hover */
+  opacity: 1; /* Make the bio visible on hover */
+}
+
+.social-links {
+  display: none;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #c9ba9d;
+}
+
+.teacher-info:hover .social-links {
+  display: flex; /* Display social links on hover */
+  justify-content: center; /* Center align social links horizontally */
+  margin-top: 10px; /* Add space between bio and social links */
+}

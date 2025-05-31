@@ -1,0 +1,94 @@
+/* HomePage.css */
+
+/* Style for the container */
+.homepage {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+  font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans 3', sans-serif;
+
+}
+
+/* Style for the heading */
+.homepage h2 {
+  font-size: 24px;
+  color: #c9ba9d; /* Text color */
+}
+
+/* Style for the paragraph */
+.homepage p {
+  font-size: 16px;
+  color: #c9ba9d; /* Text color */
+  margin-top: 20px;
+}
+
+/* Style for a button, if needed */
+.homepage button {
+  background-color: #c9ba9d; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+.homepage button:hover {
+  background-color: #333; /* Hover background color */
+}
+
+/* HomePage.css */
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  padding: 50px 20px; /* Add more padding to move the content down */
+  text-align: center; /* Center text horizontally */
+}
+
+.center-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Add space between the image and text */
+}
+
+.school-description {
+  padding: 20px; /* Add padding to the description */
+  text-align: left; /* Align text to the left within the description */
+  max-width: 800px; /* Limit the width of the description for readability */
+  margin-top: 20px; /* Move the description further down */
+}
+
+.school-description h2 {
+  font-size: 24px; /* Increase the heading text size */
+  color: #c9ba9d; /* Set the default text color */
+  transition: color 0.3s; /* Add a transition for smooth color change on hover */
+}
+
+.school-description h2:hover {
+  color: #333; /* Set the hover text color to #c9ba9d */
+}
+
+.school-description p {
+  font-size: 18px; /* Increase the paragraph text size */
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Add space between image and text */
+}
+
+.school-description {
+  text-align: center; /* Center text within the description */
+}
+
+
+
+/* Hover color for links (if needed) */
+/* .school-description a:hover {
+  color: #c9ba9d; 
+} */
